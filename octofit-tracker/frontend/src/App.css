@@ -1,0 +1,39 @@
+.App {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.navbar-brand img {
+  filter: brightness(0) invert(1);
+}
+
+.jumbotron {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.jumbotron img {
+  filter: brightness(0) invert(1);
+}
+
+.card {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.nav-tabs .nav-link {
+  cursor: pointer;
+}
+
+.table {
+  background: white;
+}
+
+.badge {
+  font-size: 0.9em;
+}
