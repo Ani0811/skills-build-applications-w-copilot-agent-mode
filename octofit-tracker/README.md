@@ -41,9 +41,9 @@ A comprehensive gym SaaS platform for managing customer training progress, built
 
 ### Backend
 - Python 3.12
-- Django 4.1.7
+- Django 4.2.26 (LTS with security patches)
 - Django REST Framework 3.14.0
-- SQLite (can be switched to MongoDB with djongo)
+- SQLite (can be switched to PostgreSQL or MySQL)
 - dj-rest-auth for authentication
 - django-cors-headers for CORS support
 
